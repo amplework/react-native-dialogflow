@@ -1,6 +1,6 @@
 {
-  "name": "react-native-dialogflow",
-  "description": "A React-Native Bridge for the Google Dialogflow SDK",
+  "name": "react-native-dialogflow-som",
+  "description": "A React-Native Bridge for the Google Dialogflow SDK with resetContext working",
   "version": "3.2.2",
   "author": "Anton Spöck (https://github.com/spoeck)",
   "dependencies": {
@@ -26,6 +26,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/innFactory/react-native-dialogflow"
+    "url": "https://github.com/elegantankit/react-native-dialogflow"
   }
 }

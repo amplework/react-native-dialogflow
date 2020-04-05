@@ -1,8 +1,8 @@
 # react-native-dialogflow (react-native-api-ai)
 
-[![Build Status](https://travis-ci.org/innFactory/react-native-dialogflow.svg?branch=master)](https://www.npmjs.com/package/react-native-dialogflow)
-[![Version](https://img.shields.io/npm/v/react-native-dialogflow.svg)](https://www.npmjs.com/package/react-native-dialogflow)
-[![Downloads](https://img.shields.io/npm/dt/react-native-dialogflow.svg)](https://www.npmjs.com/package/react-native-dialogflow)
+[![Build Status](https://travis-ci.org/innFactory/react-native-dialogflow.svg?branch=master)](https://www.npmjs.com/package/react-native-dialogflow-som)
+[![Version](https://img.shields.io/npm/v/react-native-dialogflow.svg)](https://www.npmjs.com/package/react-native-dialogflow-som)
+[![Downloads](https://img.shields.io/npm/dt/react-native-dialogflow.svg)](https://www.npmjs.com/package/react-native-dialogflow-som)
 
 
 A React-Native Bridge for the Google Dialogflow AI SDK.
@@ -17,11 +17,11 @@ Support for iOS 10+ and Android!
 
 This package depends on react-native-voice, follow their readme to setup it.
 
-Add react-native-dialogflow and link it:
+Add react-native-dialogflow-som and link it:
 ```
-npm install --save react-native-dialogflow react-native-voice
+npm install --save react-native-dialogflow-som react-native-voice
 
-react-native link react-native-dialogflow
+react-native link react-native-dialogflow-som
 react-native link react-native-voice
 
 ```
@@ -43,11 +43,11 @@ Application will crash if you don't do this.
 ## Usage
 Import Dialogflow:
 ```javascript
-import Dialogflow from "react-native-dialogflow";
+import Dialogflow from "react-native-dialogflow-som";
 ```
 or for V2
 ```javascript
-import { Dialogflow_V2 } from "react-native-dialogflow"
+import { Dialogflow_V2 } from "react-native-dialogflow-som"
 ```
 
 ### Configuration
