@@ -1,7 +1,7 @@
 {
   "name": "react-native-dialogflow-som",
   "description": "A React-Native Bridge for the Google Dialogflow SDK with resetContext working",
-  "version": "3.2.7",
+  "version": "3.2.8",
   "author": "Anton Spöck (https://github.com/spoeck)",
   "dependencies": {
     "jsrsasign": "^8.0.12"
