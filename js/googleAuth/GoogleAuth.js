@@ -40,7 +40,11 @@ const authenticate = async (email, key, scopes) => {
             assertion: encodeJWT({ email, key, scopes })
         });
 
-    return JSON.parse(json).access_token;
+        if(json) {
+          return json.access_token;
+        }
+
+        return null;
 }
 
 export default authenticate;
